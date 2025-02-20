@@ -13,10 +13,10 @@ let when = [
 ];
 
 window.onload = function() {
-  let whorand = who[Math.floor(Math.random() * who.length)];
-  let actionrand = action[Math.floor(Math.random() * action.length)];
-  let whatrand = what[Math.floor(Math.random() * what.length)];
-  let whenrand = when[Math.floor(Math.random() * when.length)];
-  let p = document.getElementById("excuse");
-  p.innerHTML = `${whorand} ${actionrand} ${whatrand} ${whenrand}`;
+  let whoRandom = who[Math.floor(Math.random() * who.length)];
+  let actionRandom = action[Math.floor(Math.random() * action.length)];
+  let whatRandom = what[Math.floor(Math.random() * what.length)];
+  let whenRandom = when[Math.floor(Math.random() * when.length)];
+  let paragraph = document.getElementById("excuse");
+  paragraph.innerHTML = `${whoRandom} ${actionRandom} ${whatRandom} ${whenRandom}`;
 };
